@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethiopia!</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+
+h1 {
+ text-align: center;
+  color: #0e2e03;
+  font-family: "Pacifico", sans-serif;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+body {
+  background-color: #ffe927;
+  margin: 0;
+  padding: 0;
+   display: flex;
+  flex-direction: column;
+}
+
+.titlebar {
+  background-color: #b1a907;
+  padding: 10px;
+}
+
+  .nav a {
+  	font-family: "Oswald", sans-serif;
+  	margin: 0 30px;
+  	font-size: 20px;
+    text-decoration: none;
+  }
+
+  .nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #b1a907;
+    padding: 10px;
+}
+
+/*ABOVE IS THE MAIN STRUCTURE OF THE WEBSITE. BELOW IS THE EXTRA CODE FOR EACH WEBSITE*/
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0px;
+}
+
+.content img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="titlebar">
+   <h1>Welcome to Ethiopia!</h1>
+ <div class="nav-row">
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="aboutethio.html">About</a>
+      <a href="students.html">Ethiopian</a>
+      <a href="memories.html">Memories</a>
+    </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <img src="temporarypicethiopia.png" alt="Ethiopia">
+
+    <div class="text">
+        <h2>About Ethiopia</h2>
+        <p>
+            Mga sobrang makukulit na anak ni Ms. Precious
+        </p>
+    </div>
+</div>
+
+<footer style="text-align: center; background-color: #d90505; padding: 30px;">
+    &copy; 2026 Ethiopia. All rights reserved. 
+</footer>
+
+</body>
+</html>
